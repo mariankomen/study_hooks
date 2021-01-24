@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+.petro {
+  width: 100px;
+  height: 100px;
+  color: white;
+  background-color: red;
+}
+.black-petro {
+  width: 100px;
+  height: 100px;
+  color: white;
+  background-color: blue;
+}
