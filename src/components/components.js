@@ -1,12 +1,12 @@
-import React from 'react';
+import React, {useState} from 'react';
+import CompItem from "./compitem";
 
-function Comp(props){
+const Comp = (props) => {
 
-    const x = props.counter*2
-
+    let ItemCreated = props.data.map((e) => <CompItem name={e.name} age={e.age}/> )
     return(
         <div>
-            {x}
+            {ItemCreated}
         </div>
     );
 }
