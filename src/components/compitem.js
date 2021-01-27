@@ -1,10 +1,10 @@
 import React from 'react';
+import style from './compitem.module.css'
 
 const CompItem = (props) => {
     return(
-        <div>
-            <li>{props.name}{props.age}</li>
-            <br/>
+        <div className={style.app}>
+            Hello Kolia
         </div>
     )
 }
